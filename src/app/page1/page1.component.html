@@ -1,0 +1,116 @@
+<nav>
+  <ul>
+     <li><a href="#contact">CONTACT</a></li>
+     <li>
+        <div class="dropdown">
+           <a href="#ACCESRIES" class="dropbtn" onclick="toggleDropdown('dropdown1')">ACCESRIES<span>▼</span></a>
+           <div class="dropdown-content" id="dropdown1">
+              <a href="#">silvers</a>
+              <a href="#">gold</a>
+              <a href="#">hand made</a>
+           </div>
+        </div>
+     </li>
+     <li><a href="#BLOG">BLOG</a></li>
+     <li>
+        <div class="dropdown">
+           <a href="#SHOP" class="dropbtn" onclick="toggleDropdown('dropdown2')">SHOP<span>▼</span></a>
+           <div class="dropdown-content" id="dropdown2">
+              <a href="#">BACKERS</a>
+              <a href="#">COOKIES</a>
+              <a href="#">Drinks</a>
+           </div>
+        </div>
+     </li>
+     <li>
+        <div class="dropdown">
+           <a href="#Pages" class="dropbtn" onclick="toggleDropdown('dropdown3')">PAGES<span>▼</span></a>
+           <div class="dropdown-content" id="dropdown3">
+              <a href="#">MENU</a>
+              <a href="#">Reservation</a>
+              <a href="#">menu2</a>
+           </div>
+        </div>
+     </li>
+     <li>
+        <div class="dropdown">
+           <a href="#HOME" class="dropbtn" onclick="toggleDropdown('dropdown4')">HOME<span>▼</span></a>
+           <div class="dropdown-content" id="dropdown4">
+              <a href="#">Fast Food</a>
+              <a href="#">Desert</a>
+              <a href="#">Drinks</a>
+           </div>
+        </div>
+     </li>
+     <li>
+        <div class="header-button">
+           <a href="contact.html" class="theme-btn ">contact us</a>
+        </div>
+        <div class="header-bar">
+           <span></span>
+           <span></span>
+           <span></span>
+        </div>
+     </li>
+  </ul>
+</nav>
+<div class="header">
+  <h1>RESERVATION</h1>
+  <a href="home.html">HOME > </a>
+  <a href="reservation.html">RESERVATION</a>
+</div>
+<br><br>
+<form action="/submit_form.php">
+  <h2>CREATE AN RESERVATION</h2>
+  <br>
+  <input type="text" id="name" placeholder="Client Name" min="2" max="20" required>
+  <input name="number" placeholder="no of person" id="age" min="1" max="12" required>
+  <input type="tel" id="phone" placeholder="Phone Number" pattern="[0-9{4}-[0-9]{3}-[0-9]{4}" required />
+  <input type="datetime" id="start" name="reservation" placeholder="yy/mm/dd" min="2024-7-18" max="2024-12-31"
+     required />
+  <br>
+  <input type="time" placeholder="time" min="9am" max="12am" required>
+  <input type="email" id="email" placeholder="Email Address" aria-label="email" required />
+  <div class="button">
+     <input type="submit" value="Booking Now">
+  </div>
+</form>
+<section class="sec3">
+  <div class="imb1">
+     <h5>piter Bowman</h5>
+     <h1 class="vm">Busniness CEO & CO Founder </h1>
+        <b class="om">
+           <h4> "Thak You For Dinner Last Nighe.It Was Amazing!! I have
+              Say It is The Best Meal i Have Had in Quite some Time
+              will definitely Be Seeing More Eating Next Year."
+           </h4>
+           <div class="start">
+              <span class="fas fa-star"></span>
+              <span class="fas fa-star"></span>
+              <span class="fas fa-star"></span>
+              <span class="fas fa-star"></span>
+              <span class="fas fa-star text-white"></span>
+           </div>
+        </b>
+
+  <div class="imb">
+     <div class="cop"><img src="assets/20240723_153406.jpg"></div>
+     <div class="cop2"><img src="assets/20240723_153408.jpg"></div>
+     <div class="cop"><img src="assets/20240723_153409.jpg"></div>
+  </div>
+
+<div class="deliverySec">
+  <div class="deltext">
+     <p style="font-size: 10px; color: #fdd000; margin-bottom: 5px; font-family:sans-serif;">CRISPY,EVERY BITE TASTE</p>
+     <h3 id="del">30 MINUTES FAST</h3>
+     <h3 id="del"><span id="del2"> DELIVERY</span> CHALLANGE </h3>
+  </div>
+  <div class="delimg">
+     <img src="assets/22235915.png" style="width: 250px">
+  </div>
+  <div class="delbtn">
+     <button id="click">ORDER NOW</button>
+  </div>
+</div>
+
+

@@ -1,0 +1,131 @@
+.sec5{
+
+  background-image: url(/assets/vvvvv.png);
+ overflow: hidden;
+
+}
+.bon{
+width: 15%;
+float: left;
+margin-top: 50px;
+margin-left:42px;
+margin-right: 20px;
+}
+.sec5 img {
+width: 100px;
+}
+.bon .im{
+width: 170px;
+}
+.oo{
+display: block;
+font-size: 22px;
+font-weight: 400;
+margin: 15px;
+}
+.op{
+display: block;
+color: green;
+font-weight: 800;
+font-size: 18px;
+}
+.co i{
+margin-top: 25px;
+margin-left: 10px;
+font-size: 30px;
+}
+.co i:hover{
+background-color: green;
+border-radius: 50%;
+padding: 10px;
+color: #f4f1ea;
+}
+#io{
+background-color: green;
+border-radius: 50%;
+padding: 10px;
+color: #f4f1ea;
+}
+.bon h3 {
+font-size: 30px;
+font-weight:800;
+margin: 12px;
+}
+.bon li{
+text-decoration: none;
+font-size: 17px;
+margin: 15px;
+font-weight: 600;
+}
+.bon li:hover{
+color: green;
+}
+.vo{
+color: green;
+}
+.nn{
+font-size: 17px;
+margin: 10px;
+}
+.nn span{
+color: red;
+}
+.mb{
+display: block;
+font-size: 17px;
+margin: 10px;
+}
+.mr{
+display: block;
+font-size: 17px;
+margin-top: 40px;
+
+}
+.rr{
+color: green;
+font-size: 23px;
+font-weight: 800;
+}
+.rr:hover{
+color: red;
+}
+.sec6{
+background-color: green;
+overflow: hidden;
+}
+.sec6 img{
+width:100px;
+}
+.mg{
+margin-left:1100px;
+margin-bottom:150px;
+margin-top: -30px;
+}
+.sec6 .bn{
+display: block;
+margin-top: 60px;
+margin-left: 80px;
+color: white;
+font-size: 22px;
+font-weight: 500;
+}
+.bn span{
+color:yellow;
+}
+.bn i{
+color: yellow;
+}
+@media screen  and ((max-width:780px)){
+.bon{
+  width: 40%;
+}
+.mg{
+  margin: auto;
+}
+}
+@media screen  and ((max-width:600px)){
+.bon{
+  width: 100%;
+}
+}
+

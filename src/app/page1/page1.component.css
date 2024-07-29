@@ -1,0 +1,589 @@
+* {
+  font-family: 'Gill Sans';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+.clr {
+  clear: both;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding-left: 0;
+}
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a,
+.dropbtn {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover,
+.dropdown:hover .dropbtn {
+  background-color: rgba(64, 48, 42, 0.514);
+}
+
+nav ul li .dropdown {
+  display: inline-block;
+}
+
+nav ul li .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+nav ul li .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+
+nav ul li .dropdown-content a:hover {
+  background-color: grey;
+}
+
+nav ul li .dropdown-content.show {
+  display: block;
+}
+
+.footer {
+  overflow: hidden;
+  height: 350px;
+  background-image: url("/assets/breadcrumb\ \(1\).jpg");
+}
+
+h1 {
+  font-size: 62px;
+  color: white;
+  text-align: center;
+  margin: 50px 20px 0px;
+}
+
+.theme-btn {
+  background-color: red;
+  padding: 15px 20px;
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+  margin-left: 150px;
+  border-radius: 6px;
+}
+
+.theme-btn:hover {
+  background-color: green;
+  z-index: 1;
+  transition: all 500ms ease;
+
+
+}
+
+body {
+  background-color: #f4f1ea;
+  align-content: center;
+  justify-content: center;
+
+}
+
+.header {
+  color: white;
+  text-align: center;
+  padding: 60px;
+  background: url('/assets/headerPic.png');
+  background-size: cover;
+}
+
+h6 {
+  font-size: 7px;
+  color: rgb(221, 11, 22);
+  background-color: black;
+  box-sizing: border-box;
+  text-align: center;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  margin: 0%;
+  padding-top: 0%;
+  padding-bottom: 10px;
+  margin-bottom: 2%;
+}
+
+h2 {
+  font-size: 20px;
+  color: aliceblue;
+  text-align: center;
+
+}
+
+form {
+  background-color: #00813e;
+  border: 1px solid beige;
+  margin: 0;
+  width: 60%;
+  border-radius: 5px;
+  padding: 25px;
+  margin-top: 20px;
+  margin: auto;
+  margin-bottom: 20px;
+  box-sizing: 50px * 10px;
+  font-size: 20px;
+  padding: auto;
+}
+
+input[type=text],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[name=number],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=tel],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=datetime],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=time],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=email],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #ffb937;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: greenyellow;
+}
+
+h4 {
+  font-size: 12px;
+  color: black;
+  background-color: white;
+  border: 3px white;
+  text-align: center;
+  box-sizing: 30px*10px;
+
+}
+
+.sec3 {
+  background-color: white;
+  overflow: hidden;
+
+}
+
+.sec3 img {
+  width: 100px;
+  border-radius: 50%;
+  transition: all 2s ease;
+
+}
+
+.sec3 .cop:hover {
+  background-color: #FFB937;
+  border-radius: 12px;
+}
+
+.cop {
+  width: 100px;
+  float: left;
+  margin: 0px 25px 25px 25px;
+  animation: move 2s infinite;
+}
+
+.cop2 {
+  width: 100px;
+  float: left;
+  margin: 0px 25px 25px 25px;
+  background-color: #FFB937;
+  border-radius: 12px;
+  animation: move 2s infinite;
+
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(100px);
+
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.cop2:hover {
+  background-color: orange;
+}
+
+.imb {
+  display: flex;
+  justify-content: center;
+}
+
+.imd1 {
+  margin-bottom: 80px;
+}
+
+h5 {
+  color: black;
+  margin-top: 50px;
+  font-size: 30px;
+
+}
+
+.vm {
+  color: red;
+  display: block;
+  text-align: center;
+  font-weight: 600;
+}
+
+.om {
+  margin: 50px 0px 50px 50px;
+  font-family: sans-serif;
+  font-size: 35px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.start {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.start span {
+  margin: 0px 10px 10px 10px;
+}
+
+.delsec,
+.s,
+.t {
+  position: relative;
+  animation-name: example;
+  animation-duration: 7s;
+  animation-delay: 5s;
+
+}
+
+@keyframes example {
+  0% {
+    width: 0%;
+    background-color: lightgreen;
+    float: left;
+  }
+
+  50% {
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+  }
+
+  100% {
+    width: 100%;
+    background-color: #00813e;
+  }
+}
+
+.deliverySec {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  height: 300px;
+  background-image: url("/assets/delback.jpg");
+  background-size: cover;
+  padding: 0 7%;
+  width: 100%;
+}
+
+.deliverySec div {
+  height: 250px;
+  margin: 1%;
+  align-content: center;
+}
+
+.deltext {
+  flex: 50%;
+  padding-top: 7%;
+  padding-bottom: 7%;
+  margin-left: 10%;
+}
+
+.delimg {
+  flex: 35%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.delbtn {
+  flex: 15%;
+  padding: 13%;
+  align-items: center;
+  justify-content: center;
+}
+
+#del {
+  font-family: sans-serif;
+  font-size: 30px;
+  color: #f9f9f9;
+}
+
+#del2 {
+  font-family: sans-serif;
+  font-size: 30px;
+  color: #fdd000;
+}
+
+button {
+  background-color: #f9f9f9;
+  padding: 30px auto;
+  border: none;
+  border-radius: 8px;
+  font-family: sans-serif;
+  text-align: center;
+  height: 30px;
+  width: 120px;
+  padding: 0 10px;
+  text-align: center;
+  align-self: center;
+}
+
+button:hover {
+  background-color: #fdd000;
+}
+
+h5 {
+  font-size: 10px;
+  color: yellow;
+  box-sizing: border-box;
+  text-align: left;
+  padding-top: 5px;
+  margin-top: 2%;
+  padding-bottom: 0%;
+  margin: 0%;
+  padding-bottom: 5px;
+  margin-bottom: 2%;
+  padding: 0%;
+  align-content: center;
+  display: block;
+  text-decoration: none;
+  padding-left: 20px;
+
+}
+
+h3 {
+  font-size: 20px;
+  color: aliceblue;
+  padding-left: 20px;
+  text-align: left;
+}
+
+/* span{
+    color: yellow;
+
+  }*/
+@media screen and (max-width: 768px) {
+
+  .deliverySec {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  /*for tablet*/
+  .col-s-1 {
+    width: 8.33%;
+  }
+
+  .col-s-2 {
+    width: 16.66%;
+  }
+
+  .col-s-3 {
+    width: 25%;
+  }
+
+  .col-s-4 {
+    width: 33.33%;
+  }
+
+  .col-s-5 {
+    width: 41.33%;
+  }
+
+  .col-s-6 {
+    width: 50%;
+  }
+
+  .col-s-7 {
+    width: 58.33%;
+  }
+
+  .col-s-8 {
+    width: 66.66%;
+  }
+
+  .col-s-9 {
+    width: 75%;
+  }
+
+  .col-s-10 {
+    width: 83.33%;
+  }
+
+  .col-s-11 {
+    width: 91.66%;
+  }
+
+  .col-s-12 {
+    width: 100%;
+  }
+
+  @media screen and (min-width: 768px) {
+    .deliverySec {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+    }
+
+    /*fordisktop*/
+    .col-s-1 {
+      width: 8.33%;
+    }
+
+    .col-s-2 {
+      width: 16.66%;
+    }
+
+    .col-s-3 {
+      width: 25%;
+    }
+
+    .col-s-4 {
+      width: 33.33%;
+    }
+
+    .col-s-5 {
+      width: 41.33%;
+    }
+
+    .col-s-6 {
+      width: 50%;
+    }
+
+    .col-s-7 {
+      width: 58.33%;
+    }
+
+    .col-s-8 {
+      width: 66.66%;
+    }
+
+    .col-s-9 {
+      width: 75%;
+    }
+
+    .col-s-10 {
+      width: 83.33%;
+    }
+
+    .col-s-11 {
+      width: 91.66%;
+    }
+
+    .col-s-12 {
+      width: 100%;
+    }
+
+  }
+}

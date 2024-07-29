@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.shop-header {
+    background-image: url('/assets/headerPhoto.jpg'); /* Adjust the path as needed */
+    background-size: cover;
+    height: 260px;
+    padding: 40px;
+}
+
+.shop-header .shop-paragraph {
+    color: brown;
+}
+
+.shop-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link {
+    background-color: green !important;
+    color: white !important;
+}
+
+.nav-link:hover {
+    background-color: darkgreen !important;
+}
+
+.item-hover:hover {
+    background: #f7d148;
+}
+
+.item-hover:hover .fa-star {
+    color: white !important;
+}
+
+.item-hover:hover .fa-change {
+    color: #f7d148 !important;
+}
+
+.item-hover:hover .heart-change {
+    background-color: white !important;
+}
+
+

@@ -1,0 +1,311 @@
+* {
+    font-family: 'Gill Sans';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f1ea;
+}
+
+.header {
+    color: white;
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    background: url("/assets/headerPic.png");
+    background-size: cover;
+}
+
+.grid-container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #212121;
+    fill: #007d3b;
+}
+
+.row div:hover {
+    background-color: #007d3b;
+    color: #ffffff;
+    fill: white;
+}
+
+.bi-envelope-paper,
+.bi-geo-alt,
+.bi-telephone {
+    width: 25px;
+    margin: 5px;
+}
+
+.info {
+    border: 1px solid lightgray;
+    background-color: white;
+    color: #212121;
+    border-radius: 7px;
+    padding: 45px;
+    height: 200px;
+    width: 300px;
+    margin: 20px auto;
+    box-shadow: 2px 2px 15px lightgray;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+#s1f {
+    font-size: 25px;
+}
+
+.txtst {
+    font-size: 12px;
+    padding: 7px 0;
+}
+
+
+p {
+    font-size: 16px;
+}
+
+.section {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.location {
+    padding: 2%;
+    flex: 100%;
+    margin-left: 10%;
+}
+
+.form {
+    border-radius: 5px;
+    background-color: #f4f1ea;
+    padding: 2%;
+    margin-right: 10%;
+    flex: 100%;
+    float: left;
+}
+
+/* form buttons style */
+
+input[type=text],
+select {
+    background-color: #f4f1ea;
+    width: 350px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+}
+
+input[type=email],
+select {
+    background-color: #f4f1ea;
+    width: 350px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+}
+
+textarea[name=message],
+select {
+    background-color: #f4f1ea;
+    width: 350px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+}
+
+.bi-person, .bi-pencil-square {
+    width: 20px;
+    fill: #666666;
+    position: static
+}
+
+.bi-envelope {
+    width: 16px;
+    fill: #666666;
+    position: static;
+}
+
+.bi-pencil-square {
+    padding-bottom: 85px;
+}
+
+#submitBtn {
+    width: 350px;
+    height: 35px;
+    background-color: #007d3b;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    padding: 3% ;
+}
+
+#msgForm{
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+}
+
+.active {
+    background-color: #ffd000;
+    color: #212121;
+}
+
+.delvierySec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-image: url("/assets/delback.jpg");
+    background-size: cover;
+    padding: 0 7%;
+}
+
+.delvierySec div {
+    height: 250px;
+    margin: 1%;
+    align-content: center;
+}
+
+.deltext {
+    flex: 50%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    margin-left: 10%;
+}
+
+.delimg {
+    flex: 35%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.delbtn {
+    flex: 15%;
+    padding: 13%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#del {
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #f9f9f9;
+}
+
+#del2 {
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #ffd000;
+}
+
+button {
+    background-color: #f9f9f9;
+    padding: 30px auto;
+    border: none;
+    border-radius: 8px;
+    font-family: sans-serif;
+    text-align: center;
+    height: 30px;
+    width: 120px;
+    padding: 0 10px;
+    text-align: center;
+    align-self: center;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #ffd000;
+}
+
+@media screen and (max-width: 600px) {
+
+    .section {
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        margin: 2%;
+    }
+
+    .location {
+        margin-left: 0;
+    }
+
+    .form {
+        margin-right: 0;
+    }
+
+    .delvierySec {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 845px) {
+
+    .section {
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+
+    .location {
+        margin-left: 0;
+    }
+
+    .form {
+        margin-right: 0;
+    }
+
+    .delvierySec {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+}
+
+@media screen and (min-width: 845px) and (max-width: 944px) {
+    .section {
+        padding: 2px;
+    }
+
+    .location {
+        margin-left: 0;
+    }
+
+    .form {
+        margin-right: 0;
+    }
+}
+
+@media screen and (min-width: 944px) and (max-width: 1075px) {
+    .section {
+        padding: 2px;
+    }
+
+    .location {
+        margin-left: 5%;
+    }
+
+    .form {
+        margin-right: 5%;
+    }
+}

@@ -1,0 +1,233 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img{
+  width: 100%;
+}
+body{
+  font-family: "Barlow Condensed", sans-serif;
+scroll-behavior: smooth;
+position: sticky; }
+.clr{
+  clear: both;
+}
+.container{
+  width: 80%;
+  margin: auto;
+  padding-left: 0;
+}
+.show {
+  display: block;
+}
+
+#dropdownMenu {
+  display: none;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center; }
+nav ul li {
+  float: left;
+}
+nav ul li a, .dropbtn {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav ul li a:hover, .dropdown:hover .dropbtn {
+  background-color: rgba(64, 48, 42, 0.514);
+}
+nav ul li .dropdown {
+  display: inline-block;
+}
+nav ul li .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.theme-btn{
+  background-color: red;
+  padding: 20px 20px;
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+  margin-left: 150px;
+  border-radius: 6px;
+
+}
+.theme-btn:hover{
+  background-color:  green;
+  z-index: 1;
+  transition: all 500ms ease;
+
+}
+@media screen  and (max-width:780px){
+  nav ul {
+      flex-direction: 2 column;
+  }
+  .theme-btn{
+  float: none;
+  margin: auto;
+  }
+}
+@media screen and (max-width:600px)  {
+  nav ul{
+      flex-direction: column;
+  }
+}
+nav ul li .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+nav ul li .dropdown-content a:hover {
+  background-color:grey;
+}
+
+nav ul li .dropdown-content.show {
+  display: block;
+}
+.sec5{
+
+  background-image: url(/assets/vvvvv.png);
+ overflow: hidden;
+
+}
+.bon{
+width: 15%;
+float: left;
+margin-top: 50px;
+margin-left:42px;
+margin-right: 20px;
+}
+.sec5 img {
+width: 100px;
+}
+.bon .im{
+width: 170px;
+}
+.oo{
+display: block;
+font-size: 22px;
+font-weight: 400;
+margin: 15px;
+}
+.op{
+display: block;
+color: green;
+font-weight: 800;
+font-size: 18px;
+}
+.co i{
+margin-top: 25px;
+margin-left: 10px;
+font-size: 30px;
+}
+.co i:hover{
+background-color: green;
+border-radius: 50%;
+padding: 10px;
+color: #f4f1ea;
+}
+#io{
+background-color: green;
+border-radius: 50%;
+padding: 10px;
+color: #f4f1ea;
+}
+.bon h3 {
+font-size: 30px;
+font-weight:800;
+margin: 12px;
+}
+.bon li{
+text-decoration: none;
+font-size: 17px;
+margin: 15px;
+font-weight: 600;
+}
+.bon li:hover{
+color: green;
+}
+.vo{
+color: green;
+}
+.nn{
+font-size: 17px;
+margin: 10px;
+}
+.nn span{
+color: red;
+}
+.mb{
+display: block;
+font-size: 17px;
+margin: 10px;
+}
+.mr{
+display: block;
+font-size: 17px;
+margin-top: 40px;
+
+}
+.rr{
+color: green;
+font-size: 23px;
+font-weight: 800;
+}
+.rr:hover{
+color: red;
+}
+.sec6{
+background-color: green;
+overflow: hidden;
+}
+.sec6 img{
+width:100px;
+}
+.mg{
+margin-left:1100px;
+margin-bottom:150px;
+margin-top: -30px;
+}
+.sec6 .bn{
+display: block;
+margin-top: 60px;
+margin-left: 80px;
+color: white;
+font-size: 22px;
+font-weight: 500;
+}
+.bn span{
+color:yellow;
+}
+.bn i{
+color: yellow;
+}
+@media screen  and ((max-width:780px)){
+.bon{
+  width: 40%;
+}
+.mg{
+  margin: auto;
+}
+}
+@media screen  and ((max-width:600px)){
+.bon{
+  width: 100%;
+}
+}
+

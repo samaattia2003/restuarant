@@ -1,0 +1,89 @@
+<nav>
+  <ul>
+    <li><img class="im" src="assets/logo.jpeg" alt=""></li>
+    <li><a router="/contact-us">contact</a></li>
+    <li>
+      <!-- <div class="dropdown">
+        <a href="#ACCESRIES" class="dropbtn" (click)="toggleDropdown('dropdown1')">ACCESRIES<span>▼</span></a>
+        <div class="dropdown-content" [class.show]="dropdownStates['dropdown1']">
+          <a href="#">silvers</a>
+          <a href="#">gold</a>
+          <a href="#">hand made</a>
+        </div>
+      </div>
+    </li>
+    <li><a href="#BLOG">BLOG</a></li>
+    <li>
+      <div class="dropdown">
+        <a href="#SHOP" class="dropbtn" (click)="toggleDropdown('dropdown2')">SHOP<span>▼</span></a>
+        <div class="dropdown-content" [class.show]="dropdownStates['dropdown2']">
+          <a href="#">BACKERS</a>
+          <a href="#">COOKIES</a>
+          <a href="#">Drinks</a>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="dropdown">
+        <a href="#Pages" class="dropbtn" (click)="toggleDropdown('dropdown3')">PAGES<span>▼</span></a>
+        <div class="dropdown-content" [class.show]="dropdownStates['dropdown3']">
+          <a href="#">SHOP</a>
+          <a href="#">reservation</a>
+          <a href="#">menu2</a>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="dropdown">
+        <a href="#HOME" class="dropbtn" (click)="toggleDropdown('dropdown4')">HOME<span>▼</span></a>
+        <div class="dropdown-content" [class.show]="dropdownStates['dropdown4']">
+          <a href="#">Fast Food</a>
+          <a href="#">Desert</a>
+          <a href="#">Drinks</a>
+        </div>
+      </div>
+    </li> -->
+
+    <!-- header.component.html -->
+
+      <a href="#" (click)="toggleDropdown('dropdown1')">Menu</a>
+      <ul *ngIf="dropdownStates['dropdown1']">
+        <li><a routerLink="/shop">Shop</a></li>
+        <li><a routerLink="/menu">Menu</a></li>
+        <li><a routerLink="/reservation">Reservation</a></li>
+      </ul>
+    </li>
+    <li><a routerLink="/blog">Blog</a></li>
+    <li><a routerLink="/shop">Shop</a></li>
+    <li><a routerLink="/reservation">Reservation</a></li>
+    <li>
+      <div class="header-button">
+        <a router="/contact-us" class="theme-btn">contact us</a>
+      </div>
+      <div class="header-bar">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </li>
+  </ul>
+</nav>
+
+<!-- header.component.html -->
+<!-- <nav>
+  <ul>
+    <li>
+      <a href="#" (click)="toggleDropdown('dropdown1')">Menu</a>
+      <ul *ngIf="dropdownStates['dropdown1']">
+        <li><a routerLink="/shop">Shop</a></li>
+        <li><a routerLink="/menu">Menu</a></li>
+        <li><a routerLink="/reservation">Reservation</a></li>
+      </ul>
+    </li>
+    <li><a routerLink="/shop">Shop</a></li>
+    <li><a routerLink="/menu">Menu</a></li>
+    <li><a routerLink="/reservation">Reservation</a></li>
+  </ul>
+</nav> -->
+
+

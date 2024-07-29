@@ -1,0 +1,32 @@
+.delivery-section {
+    background-image: url('/assets/main-cta-bg.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.delivery-text span {
+    color: #FFB936;
+}
+.delivery-text h2 {
+    font-size: 70px;
+    color: #ffffff;
+    font-weight: 600;
+    margin: 20px;
+}
+.delivery-text .btn {
+    background-color: white;
+}
+.delivery-text .btn:hover {
+    background-color: #FFB936;
+}
+.delivery-text .fa-truck {
+    font-size: 20px;
+    color: #00813D;
+}
+@media screen and (max-width: 665px) {
+    .delivery-text, .delivery-image {
+        width: 100% !important;
+    }
+    h2 {
+        font-size: 30px !important;
+    }
+}
